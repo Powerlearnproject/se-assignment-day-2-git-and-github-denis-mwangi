@@ -2,8 +2,31 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18345185&assignment_repo_type=AssignmentRepo)
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
+- Version control is a system that tracks changes to files over time, enabling collaboration, error recovery, and project management.
+    - Key concepts include:
+        - Repository - this is a central database that stores all versions of a project’s files and their history. It can be local on your machine or remote hosted on Github.
+        - Commit - This is a snapshot of changes made to a file at a specific time.
+        - Branch - this is a copy of the main branch that allows one to make changes without affecting the main branch
+        - Merge this involves combining changes of one branch to another.
 
+- Github is popular because it allows for many people to work on the same and seperate features, for their changes to be easily reviewed before merging them to the current version.
+
+- Version controls ensure projects remains stable, collaborative and traceable.
+    1. Change Tracking - Every modification is logged, including who made it, when, and why (via commit messages).
+    2. Rollback & Recovery - Revert to any previous commit if a bug is introduced.
+    3. Redundancy - Distributed repositories (with Git) reduce data loss risk—every contributor has a full backup.
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
+
+1. login into your Github account or if you don't have one create one.
+2. Head on to the "New repository" in the top right corner, click the "+" icon and select "New repository".
+3. Enter Repository Details - A unique name for you repositry and a description about the repo which is optional.
+4. Decide whether you want your repo to be public or private and choose the appropiate one for you.
+5. Check the box Initialize with README if you want to initialize your repo with a README.
+6. Click the "Create repository" button to finalize the process.
+
+* Important decions to make are:
+1. Repository name and description - Choose a clear, decriptive name for your repo, that reflects the projects purpose. Write a brief description that helps others understand what the repo is with a glance.
+
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
