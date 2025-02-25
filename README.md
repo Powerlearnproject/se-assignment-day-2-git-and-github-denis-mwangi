@@ -122,9 +122,14 @@
 - It is essential as it allows mutiple team members to work on different parts of a project at the same time.
 
 * process of creatin, using and merging branches.
-    1. To create a branch use `git branch` command followed by the name of the branch. You can also create a branch using `git checkout` command that creates a branch and switches to the branch simultaneously. example code: `git checkout -b <branch name>` 
-    2. 
-
+    1. Creating a branch
+        - use `git branch command` to create a branch followed by the  branch name. Example code: `git branch <branch name>`.
+        -  Use `git checkout coomand`. This commands creates a branch and switches to that branch. Example code: `git checkout -b <branch name>`. The switch -b specofoes the branch name.
+    2. using a branch.
+        - To use a branch first switch to the branch you want to work on using `git checkout <branch-name>` and add your changes as you wish.
+    3. Merging branches
+        - To merge branches locally use `git checkout` to switch to the branch you want to merge into.
+        - For example when merging into main you can use: <br> `git checkout main` <br> `git merge <branch name>`
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
