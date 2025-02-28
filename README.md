@@ -132,8 +132,61 @@
         - For example when merging into main you can use: <br> `git checkout main` <br> `git merge <branch name>`
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
+- A pull request is a way to propose changes to a codebase.
+1. Creating a Pull request
+    - Navigate to your repository on GitHub and switch to the branch you want to merge.
+    - Click the "Pull requests" tab and then click the green "New pull request" button.
+    - Select the base branch (the branch you want to merge into, typically main) and the compare branch (the branch with your changes).
+    - Review the changes that will be merged.
+    - Add a title and description to your pull request. Clearly explain what your changes do and why they are necessary.
+    - Click "Create pull request".
+    * Pull requests follow a simple workflow:
+        - Create a branch for your work.
+        - Push the branch to GitHub and create a pull request.
+        - Review and discuss the pull request with your team.
+        - Make necessary changes based on feedback.
+        - Merge the pull request once it's approved.
+2. Reviewing Code 
+    - Go to the pull request on GitHub.
+    - Look at the "Files changed" tab to see what changes were made.
+    - Leave comments on specific lines of code by clicking the line number and selecting "Add a comment".
+    - Discuss any issues or suggestions with the author directly within the pull request.
+    - Approve the pull request if the changes are good, or request additional changes if needed.
+3. Merging the Pull Request
+- Once the pull request is approved and all issues are resolved, you can merge it:
+    - Click the "Merge pull request" button on the PR page.
+    - Confirm the merge by clicking "Confirm merge".
+    - Optionally, delete the branch after the merge to keep the repository clean.
+- GitHub provides options for different types of merges:
+    - Merge Commit: Preserves all commits from the feature branch.
+    - Squash and Merge: Combines all commits into a single commit.
+    - Rebase and Merge: Reapplies commits from the feature branch on top of the base branch.
+- "Squash and Merge" is a preferred GitHub merge strategy because it simplifies commit history by combining all changes from a feature branch into a single commit.
+
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
+- Forking is creating a separate, independent copy of a project under your own account, allowing you to make changes without affecting the original repository.
+
+* The key differences are:
+    - When you fork a repository, the new copy is owned by you in your GitHub account, whereas when you clone, you are simply downloading a copy of the project to your local machine without changing ownership. 
+    - Forking is primarily used to contribute to an open-source project by making changes in your fork and then submitting them back to the original repository via a pull request, while cloning is used to work on a project locally where you already have write access.
+    - Changes made in a forked repository do not directly affect the original project, while changes made in a cloned repository can be pushed directly to the original repository if you have write access.
+
+* Scenarios where forking is useful:
+    - Contributing to open-source projects.
+    - If you want to try out new features or modifications to a project without impacting the original codebase.
+    - If you are not granted direct write access to a repository, you can still contribute by forking it and submitting pull requests. 
+
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
+* Importance of Github issues
+    - Issues serve as a centralized location for reporting and tracking bugs.
+    - Issues can be used to create tasks for new features, enhancements, or other project-related work.
+    - Issues facilitate communication among team members through comments and discussions.
+    - Issues enhance collaboration as they provide a transparent view of the projects progress.
+* Importance of GitHub Project Boards:
+    - provide a visual representation of the project's workflow,
+    - can be used to organize issues, pull requests, and notes, providing a comprehensive view of the project's status.
+    - Project boards facilitate collaboration by providing a shared workspace where team members can track progress and communicate with each other.
+    - Project boards offer a clear and visual representation of the project's workflow, making it easy to identify bottlenecks and track progress.
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
